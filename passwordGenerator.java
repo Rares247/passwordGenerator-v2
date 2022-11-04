@@ -20,7 +20,7 @@ public class passwordGenerator implements ActionListener {
         passwd.setMaximumSize(new Dimension(100,30));
         
 
-        //add them to the interface
+        //add GUI elements to the interface
         frame.add(panel);
         panel.add(Box.createRigidArea(new Dimension(5,40)));
         panel.add(passwd);
@@ -60,7 +60,7 @@ public class passwordGenerator implements ActionListener {
             int r2 = random.nextInt(26);
             int r4 = random.nextInt(24);
             int r1 = random.nextInt(10);
-            
+           
             if(r == 0){
                 pass[i] = (char) ar1[r1];      
             }
